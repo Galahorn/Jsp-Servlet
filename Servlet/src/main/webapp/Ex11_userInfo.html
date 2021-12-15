@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<form action = "Ex11_userInfo" method = "post">
+		<table width="400px">
+
+			<tr bgcolor="gray" height="50px">
+				<th colspan="2" align="left">step1 : 아이디 비번 입력</th>
+			</tr>
+
+
+			<tr bgcolor="whitesmoke" height="35px">
+				<td align="right">아이디 :</td>
+				<td><input type="text" name = "id"></td>
+			</tr>
+
+			<br>
+
+			<tr bgcolor="whitesmoke" height="35px">
+				<td align="right">비밀번호 :</td>
+				<td><input type="password" name = "pw"></td>
+
+			</tr>
+
+			<br>
+
+			<tr bgcolor="whitesmoke" height="35px">
+				<td align="right">비밀번호 확인 :</td>
+				<td><input type="password" name = "rpw"></td>
+			</tr>
+
+			<tr bgcolor="gray" height="50px">
+				<th colspan="2" align="left">step2 : 개인정보</th>
+			</tr>
+
+
+			<tr bgcolor="whitesmoke" height="35px">
+				<td align="right">성별 :</td>
+				<td>남 <input type="radio" name="gender" value="man"> 
+					여 <input type="radio" name="gender" value="woman">
+				</td>
+			</tr>
+
+			<br>
+
+			<tr bgcolor="whitesmoke" height="35px">
+				<td align="right">혈액형 :</td>
+				<td><select name = blood>
+						<option value="A형">A형</option>
+						<option value="B형">B형</option>
+						<option value="O형">O형</option>
+						<option value="AB형">AB형</option>
+				</select></td>
+
+			</tr>
+
+			<br>
+
+			<tr bgcolor="whitesmoke" height="35px">
+				<td align="right">생일 :</td>
+				<td><input type="date" name = "birth"></td>
+			</tr>
+
+
+			<tr bgcolor="gray" height="50px">
+				<th colspan="2" align="left">step3 : 선호도</th>
+			</tr>
+
+
+			<tr bgcolor="whitesmoke" height="35px">
+				<td align="right">취미 :</td>
+				<td>
+					축구 <input type="checkbox" value="soccer" name = "sport"> 
+					야구 <input type="checkbox" value="baseball" name = "sport"> 
+					농구 <input type="checkbox" value="basket" name = "sport">
+				</td>
+			</tr>
+
+			<br>
+
+			<tr bgcolor="whitesmoke" height="35px">
+				<td align="right">좋아하는 색깔 :</td>
+				<td><input type="color" name = "color"></td>
+
+			</tr>
+
+			<tr bgcolor="gray" height="50px">
+
+				<th colspan="2">Step4 : 적고싶은말</th>
+			<tr height="35px" bgcolor="whitesmoke">
+				<td align="left" colspan="2"><textarea cols="57" rows="5" name = "tbox"></textarea>
+				</td>
+
+			</tr>
+
+			<tr height="35px" bgcolor="whitesmoke">
+				<td align="center" colspan="2"><input type="submit"> <input
+					type="reset"></td>
+			</tr>
+
+		</table>
+
+
+
+	</form>
+</body>
+</html>
